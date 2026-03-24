@@ -566,45 +566,55 @@ def sort_images(
             if boundary_path and Path(boundary_path).exists():
                 polygons = build_constituency_polygons(boundary_path)
 
-            # First check if OCR tokens contain constituency name directly
-            if tokens:
-                for token in tokens:
-                    token_clean = token.lower().replace(" ", "")
-                    # Direct match for known constituencies
-                    if token_clean in canonical_names:
-                        match = (token_clean, canonical_names[token_clean], 100)
-                        match_method = "direct"
-                        log.info("  ✓ Direct match from OCR: %s", match[1])
-                        break
-                    # Fuzzy match
-                    fuzzy = match_constituency([token], alias_map, canonical_names, score_cutoff=85)
-                    if fuzzy:
-                        match = fuzzy
-                        match_method = "text"
-                        log.info("  ✓ Text fuzzy match: %s (score=%d)", match[1], match[2])
-                        break
-
-            # Use OSM to approximate constituency from coordinates
-            if coords and not match:
+            # PRIORITY 1: Shapefile match from coordinates
+            if coords and boundary_path and Path(boundary_path).exists():
                 log.info("  Extracted coordinates: %s", coords)
+                geo_match = find_constituency_by_coords(coords[0], coords[1], boundary_path)
+                if geo_match:
+                    constituency_name, district = geo_match
+                    key = constituency_name.lower().replace(" ", "")
+                    
+                    if key in canonical_names:
+                        match = (key, canonical_names[key], 100)
+                        match_method = "shapefile"
+                        log.info("  ✓ Shapefile match: %s (district: %s)", constituency_name, district)
+                    else:
+                        fuzzy = match_constituency([constituency_name], alias_map, canonical_names, score_cutoff=75)
+                        if fuzzy:
+                            match = fuzzy
+                            match_method = "shapefile_json"
+                            log.info("  ✓ Shapefile+JSON: %s", match[1])
+
+            # PRIORITY 2: JSON match from OCR text tokens
+            if not match and tokens:
+                fuzzy = match_constituency(tokens, alias_map, canonical_names, score_cutoff=55)
+                if fuzzy:
+                    match = fuzzy
+                    match_method = "json_text"
+                    log.info("  ✓ JSON text match: %s (score=%d)", match[1], match[2])
+                else:
+                    for token in tokens:
+                        single_match = match_constituency([token], alias_map, canonical_names, score_cutoff=65)
+                        if single_match:
+                            match = single_match
+                            match_method = "json_single"
+                            log.info("  ✓ JSON single match: %s (score=%d)", match[1], match[2])
+                            break
+
+            # PRIORITY 3: OSM fallback
+            if not match and coords:
+                log.info("  Trying OSM fallback...")
                 osm_data = reverse_geocode_osm(coords[0], coords[1])
                 if osm_data:
-                    log.info("  OSM place: %s", osm_data.get("display_name", "")[:80])
                     place_names = extract_place_from_osm(osm_data)
                     if place_names:
-                        log.info("  OSM places: %s", place_names)
-                        
                         for place in place_names:
-                            osm_match = match_constituency(
-                                [place], alias_map, canonical_names, score_cutoff=55
-                            )
+                            osm_match = match_constituency([place], alias_map, canonical_names, score_cutoff=50)
                             if osm_match:
                                 match = osm_match
-                                match_method = "osm"
-                                log.info("  ✓ OSM matched: %s (score=%d)", match[1], match[2])
+                                match_method = "osm_fallback"
+                                log.info("  ✓ OSM fallback: %s", match[1])
                                 break
-
-            # If OCR text was detected, try to match it
             if not match and tokens:
                 match = match_constituency(tokens, alias_map, canonical_names, score_cutoff=55)
                 if match:
