@@ -1,0 +1,562 @@
+{
+  "manjeshwar": {
+    "district": "Kasaragod",
+    "aliases": ["manjeshwar", "manjeshwaram", "manjeswaram", "manjeswar"]
+  },
+  "kasaragod": {
+    "district": "Kasaragod",
+    "aliases": ["kasaragod", "kasargod", "kasargode"]
+  },
+  "udma": {
+    "district": "Kasaragod",
+    "aliases": ["udma", "uduma"]
+  },
+  "kanhangad": {
+    "district": "Kasaragod",
+    "aliases": ["kanhangad", "kanhangadu", "kahnangad"]
+  },
+  "trikaripur": {
+    "district": "Kasaragod",
+    "aliases": ["trikaripur", "thrikkaripur", "thrikaripur"]
+  },
+  "payyanur": {
+    "district": "Kannur",
+    "aliases": ["payyanur", "payyannur", "payyanoor"]
+  },
+  "kalliasseri": {
+    "district": "Kannur",
+    "aliases": ["kalliasseri", "kalyasseri", "kalliassery", "kallyasseri"]
+  },
+  "taliparamba": {
+    "district": "Kannur",
+    "aliases": ["taliparamba", "thaliparamba", "thaliparampu"]
+  },
+  "irikkur": {
+    "district": "Kannur",
+    "aliases": ["irikkur", "irikur", "irikkoor"]
+  },
+  "azhikode": {
+    "district": "Kannur",
+    "aliases": ["azhikode", "azhicode"]
+  },
+  "kannur": {
+    "district": "Kannur",
+    "aliases": ["kannur", "cannanore", "kannooj"]
+  },
+  "dharmadam": {
+    "district": "Kannur",
+    "aliases": ["dharmadam", "dharmadom"]
+  },
+  "thalassery": {
+    "district": "Kannur",
+    "aliases": ["thalassery", "tellicherry", "thalasseri"]
+  },
+  "kuthuparamba": {
+    "district": "Kannur",
+    "aliases": ["kuthuparamba", "koothuparamba", "kuthuparampu"]
+  },
+  "mattanur": {
+    "district": "Kannur",
+    "aliases": ["mattanur", "mattannur", "mattanoor"]
+  },
+  "peravoor": {
+    "district": "Kannur",
+    "aliases": ["peravoor", "peravur"]
+  },
+  "mananthavady": {
+    "district": "Wayanad",
+    "aliases": ["mananthavady", "mananthavadi", "manantoddy"]
+  },
+  "sulthan_bathery": {
+    "district": "Wayanad",
+    "aliases": ["sulthan bathery", "sultan bathery", "bathery", "sulthanbathery"]
+  },
+  "kalpetta": {
+    "district": "Wayanad",
+    "aliases": ["kalpetta"]
+  },
+  "vadakara": {
+    "district": "Kozhikode",
+    "aliases": ["vadakara", "badagara"]
+  },
+  "kuttiadi": {
+    "district": "Kozhikode",
+    "aliases": ["kuttiadi", "kuttiyadi"]
+  },
+  "nadapuram": {
+    "district": "Kozhikode",
+    "aliases": ["nadapuram", "nadapuram"]
+  },
+  "koyilandy": {
+    "district": "Kozhikode",
+    "aliases": ["koyilandy", "quilandy", "koilandy"]
+  },
+  "perambra": {
+    "district": "Kozhikode",
+    "aliases": ["perambra"]
+  },
+  "balusseri": {
+    "district": "Kozhikode",
+    "aliases": ["balusseri", "balussery", "balusserry"]
+  },
+  "elathur": {
+    "district": "Kozhikode",
+    "aliases": ["elathur", "elathoor"]
+  },
+  "kozhikode_north": {
+    "district": "Kozhikode",
+    "aliases": ["kozhikode north", "calicut north", "kozhikodenorth"]
+  },
+  "kozhikode_south": {
+    "district": "Kozhikode",
+    "aliases": ["kozhikode south", "calicut south", "kozhikodesouth"]
+  },
+  "beypore": {
+    "district": "Kozhikode",
+    "aliases": ["beypore", "beypur"]
+  },
+  "kunnamangalam": {
+    "district": "Kozhikode",
+    "aliases": ["kunnamangalam", "kunnamangalom"]
+  },
+  "koduvally": {
+    "district": "Kozhikode",
+    "aliases": ["koduvally", "koduvali", "koduvally"]
+  },
+  "thiruvambady": {
+    "district": "Kozhikode",
+    "aliases": ["thiruvambady", "thiruvambadi"]
+  },
+  "kondotty": {
+    "district": "Malappuram",
+    "aliases": ["kondotty", "kondotti"]
+  },
+  "ernad": {
+    "district": "Malappuram",
+    "aliases": ["ernad", "eranad"]
+  },
+  "nilambur": {
+    "district": "Malappuram",
+    "aliases": ["nilambur", "nilamboor"]
+  },
+  "wandoor": {
+    "district": "Malappuram",
+    "aliases": ["wandoor", "vandur"]
+  },
+  "manjeri": {
+    "district": "Malappuram",
+    "aliases": ["manjeri"]
+  },
+  "perinthalmanna": {
+    "district": "Malappuram",
+    "aliases": ["perinthalmanna", "perintalmanna"]
+  },
+  "mankada": {
+    "district": "Malappuram",
+    "aliases": ["mankada"]
+  },
+  "malappuram": {
+    "district": "Malappuram",
+    "aliases": ["malappuram", "malapuram"]
+  },
+  "vengara": {
+    "district": "Malappuram",
+    "aliases": ["vengara"]
+  },
+  "vallikkunnu": {
+    "district": "Malappuram",
+    "aliases": ["vallikkunnu", "vallikunnu"]
+  },
+  "tirurangadi": {
+    "district": "Malappuram",
+    "aliases": ["tirurangadi", "thirurangadi"]
+  },
+  "tanur": {
+    "district": "Malappuram",
+    "aliases": ["tanur", "tanoor", "thanur"]
+  },
+  "tirur": {
+    "district": "Malappuram",
+    "aliases": ["tirur", "thirur", "tiroor"]
+  },
+  "kottakkal": {
+    "district": "Malappuram",
+    "aliases": ["kottakkal", "kottakal"]
+  },
+  "thavanur": {
+    "district": "Malappuram",
+    "aliases": ["thavanur", "thavanoor"]
+  },
+  "ponnani": {
+    "district": "Malappuram",
+    "aliases": ["ponnani"]
+  },
+  "pattambi": {
+    "district": "Palakkad",
+    "aliases": ["pattambi"]
+  },
+  "shornur": {
+    "district": "Palakkad",
+    "aliases": ["shornur", "shoranur", "shornoor"]
+  },
+  "ottapalam": {
+    "district": "Palakkad",
+    "aliases": ["ottapalam", "ottappalam"]
+  },
+  "kongad": {
+    "district": "Palakkad",
+    "aliases": ["kongad", "kongadu"]
+  },
+  "mannarkkad": {
+    "district": "Palakkad",
+    "aliases": ["mannarkkad", "mannarkad", "mannarkadu"]
+  },
+  "malampuzha": {
+    "district": "Palakkad",
+    "aliases": ["malampuzha"]
+  },
+  "palakkad": {
+    "district": "Palakkad",
+    "aliases": ["palakkad", "palghat", "palakad"]
+  },
+  "tarur": {
+    "district": "Palakkad",
+    "aliases": ["tarur", "tharoor", "tharur"]
+  },
+  "chittur": {
+    "district": "Palakkad",
+    "aliases": ["chittur", "chittoor", "chittur"]
+  },
+  "nenmara": {
+    "district": "Palakkad",
+    "aliases": ["nenmara", "nemmara"]
+  },
+  "alathur": {
+    "district": "Palakkad",
+    "aliases": ["alathur", "alathoor"]
+  },
+  "trithala": {
+    "district": "Palakkad",
+    "aliases": ["trithala", "thrithala"]
+  },
+  "chelakkara": {
+    "district": "Thrissur",
+    "aliases": ["chelakkara", "chelakara"]
+  },
+  "kunnamkulam": {
+    "district": "Thrissur",
+    "aliases": ["kunnamkulam"]
+  },
+  "guruvayur": {
+    "district": "Thrissur",
+    "aliases": ["guruvayur", "guruvayoor", "guruvayur"]
+  },
+  "manalur": {
+    "district": "Thrissur",
+    "aliases": ["manalur", "manaloor"]
+  },
+  "wadakkanchery": {
+    "district": "Thrissur",
+    "aliases": ["wadakkanchery", "vadakkanchery", "wadakanchery"]
+  },
+  "ollur": {
+    "district": "Thrissur",
+    "aliases": ["ollur", "olloor"]
+  },
+  "thrissur": {
+    "district": "Thrissur",
+    "aliases": ["thrissur", "trichur", "thrisur"]
+  },
+  "nattika": {
+    "district": "Thrissur",
+    "aliases": ["nattika", "nattikka"]
+  },
+  "kaipamangalam": {
+    "district": "Thrissur",
+    "aliases": ["kaipamangalam", "kaipamangalom"]
+  },
+  "irinjalakuda": {
+    "district": "Thrissur",
+    "aliases": ["irinjalakuda", "irinjalakooda", "irinjalakkuda"]
+  },
+  "pudukkad": {
+    "district": "Thrissur",
+    "aliases": ["pudukkad", "puthukkad", "pudukad"]
+  },
+  "chalakudy": {
+    "district": "Thrissur",
+    "aliases": ["chalakudy", "chalakkudy"]
+  },
+  "kodungallur": {
+    "district": "Thrissur",
+    "aliases": ["kodungallur", "kodungalloor", "cranganore"]
+  },
+  "perumbavoor": {
+    "district": "Ernakulam",
+    "aliases": ["perumbavoor", "perumbavur", "perumbavoor"]
+  },
+  "angamaly": {
+    "district": "Ernakulam",
+    "aliases": ["angamaly", "angamali"]
+  },
+  "aluva": {
+    "district": "Ernakulam",
+    "aliases": ["aluva", "alwaye"]
+  },
+  "kalamassery": {
+    "district": "Ernakulam",
+    "aliases": ["kalamassery", "kalamasseri"]
+  },
+  "paravur": {
+    "district": "Ernakulam",
+    "aliases": ["paravur", "north paravur", "paravoor"]
+  },
+  "vypen": {
+    "district": "Ernakulam",
+    "aliases": ["vypen", "vypin"]
+  },
+  "kochi": {
+    "district": "Ernakulam",
+    "aliases": ["kochi", "cochin"]
+  },
+  "thrippunithura": {
+    "district": "Ernakulam",
+    "aliases": ["thrippunithura", "tripunithura"]
+  },
+  "ernakulam": {
+    "district": "Ernakulam",
+    "aliases": ["ernakulam"]
+  },
+  "thrikkakara": {
+    "district": "Ernakulam",
+    "aliases": ["thrikkakara", "thrikakara", "thrikkakara"]
+  },
+  "kunnathunad": {
+    "district": "Ernakulam",
+    "aliases": ["kunnathunad", "kunnathunadu"]
+  },
+  "piravom": {
+    "district": "Ernakulam",
+    "aliases": ["piravom", "piravam"]
+  },
+  "muvattupuzha": {
+    "district": "Ernakulam",
+    "aliases": ["muvattupuzha", "moovattupuzha"]
+  },
+  "kothamangalam": {
+    "district": "Ernakulam",
+    "aliases": ["kothamangalam", "kothamangalom"]
+  },
+  "devikulam": {
+    "district": "Idukki",
+    "aliases": ["devikulam", "devicolam"]
+  },
+  "udumbanchola": {
+    "district": "Idukki",
+    "aliases": ["udumbanchola", "udumbancholai"]
+  },
+  "thodupuzha": {
+    "district": "Idukki",
+    "aliases": ["thodupuzha"]
+  },
+  "idukki": {
+    "district": "Idukki",
+    "aliases": ["idukki", "idikki"]
+  },
+  "peerumade": {
+    "district": "Idukki",
+    "aliases": ["peerumade", "peermade", "peerumedu"]
+  },
+  "pala": {
+    "district": "Kottayam",
+    "aliases": ["pala", "palai"]
+  },
+  "kaduthuruthy": {
+    "district": "Kottayam",
+    "aliases": ["kaduthuruthy", "kaduthuruthi"]
+  },
+  "vaikom": {
+    "district": "Kottayam",
+    "aliases": ["vaikom", "vaykom"]
+  },
+  "ettumanoor": {
+    "district": "Kottayam",
+    "aliases": ["ettumanoor", "ettumanur"]
+  },
+  "kottayam": {
+    "district": "Kottayam",
+    "aliases": ["kottayam"]
+  },
+  "puthuppally": {
+    "district": "Kottayam",
+    "aliases": ["puthuppally", "puthupally", "puthupalli"]
+  },
+  "changanassery": {
+    "district": "Kottayam",
+    "aliases": ["changanassery", "changanaseri", "changanacherry"]
+  },
+  "kanjirappally": {
+    "district": "Kottayam",
+    "aliases": ["kanjirappally", "kanjirapally", "kanjirappalli"]
+  },
+  "poonjar": {
+    "district": "Kottayam",
+    "aliases": ["poonjar", "punjar"]
+  },
+  "aroor": {
+    "district": "Alappuzha",
+    "aliases": ["aroor", "arur"]
+  },
+  "cherthala": {
+    "district": "Alappuzha",
+    "aliases": ["cherthala", "shertallai", "cherthalla"]
+  },
+  "alappuzha": {
+    "district": "Alappuzha",
+    "aliases": ["alappuzha", "alleppey"]
+  },
+  "ambalappuzha": {
+    "district": "Alappuzha",
+    "aliases": ["ambalappuzha", "ambalapuzha"]
+  },
+  "kuttanad": {
+    "district": "Alappuzha",
+    "aliases": ["kuttanad", "kuttanadu"]
+  },
+  "haripad": {
+    "district": "Alappuzha",
+    "aliases": ["haripad", "harippad"]
+  },
+  "kayamkulam": {
+    "district": "Alappuzha",
+    "aliases": ["kayamkulam", "kayamkoolam"]
+  },
+  "mavelikara": {
+    "district": "Alappuzha",
+    "aliases": ["mavelikara", "mavelikkara"]
+  },
+  "chengannur": {
+    "district": "Alappuzha",
+    "aliases": ["chengannur", "chenganur", "chengannoor"]
+  },
+  "thiruvalla": {
+    "district": "Pathanamthitta",
+    "aliases": ["thiruvalla", "tiruvalla"]
+  },
+  "ranni": {
+    "district": "Pathanamthitta",
+    "aliases": ["ranni", "ranny"]
+  },
+  "aranmula": {
+    "district": "Pathanamthitta",
+    "aliases": ["aranmula", "aranmulla"]
+  },
+  "konni": {
+    "district": "Pathanamthitta",
+    "aliases": ["konni"]
+  },
+  "adoor": {
+    "district": "Pathanamthitta",
+    "aliases": ["adoor", "adur"]
+  },
+  "karunagappally": {
+    "district": "Kollam",
+    "aliases": ["karunagappally", "karunagapally", "karunagappalli"]
+  },
+  "chavara": {
+    "district": "Kollam",
+    "aliases": ["chavara"]
+  },
+  "kunnathur": {
+    "district": "Kollam",
+    "aliases": ["kunnathur", "kunnattur"]
+  },
+  "kottarakkara": {
+    "district": "Kollam",
+    "aliases": ["kottarakkara", "kottarakara"]
+  },
+  "pathanapuram": {
+    "district": "Kollam",
+    "aliases": ["pathanapuram"]
+  },
+  "punalur": {
+    "district": "Kollam",
+    "aliases": ["punalur", "punaloor"]
+  },
+  "chadayamangalam": {
+    "district": "Kollam",
+    "aliases": ["chadayamangalam", "chadayamanagalam"]
+  },
+  "kundara": {
+    "district": "Kollam",
+    "aliases": ["kundara"]
+  },
+  "kollam": {
+    "district": "Kollam",
+    "aliases": ["kollam", "quilon"]
+  },
+  "eravipuram": {
+    "district": "Kollam",
+    "aliases": ["eravipuram", "eravipuram"]
+  },
+  "chathannoor": {
+    "district": "Kollam",
+    "aliases": ["chathannoor", "chathannur", "chathanoor"]
+  },
+  "varkala": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["varkala"]
+  },
+  "attingal": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["attingal"]
+  },
+  "chirayinkeezhu": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["chirayinkeezhu", "chirayinkil", "chirayinkeezh"]
+  },
+  "nedumangad": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["nedumangad", "nedumangadu"]
+  },
+  "vamanapuram": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["vamanapuram"]
+  },
+  "kazhakkoottam": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["kazhakkoottam", "kazhakuttam", "kazhakootam"]
+  },
+  "vattiyoorkavu": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["vattiyoorkavu", "vattiyoorkkavu", "vattiyurkavu", "vattiyoorkavu"]
+  },
+  "thiruvananthapuram": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["thiruvananthapuram", "trivandrum"]
+  },
+  "nemom": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["nemom", "nemam"]
+  },
+  "aruvikkara": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["aruvikkara", "aruvikara"]
+  },
+  "parassala": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["parassala", "parasala"]
+  },
+  "kattakkada": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["kattakkada", "kattakada"]
+  },
+  "kovalam": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["kovalam"]
+  },
+  "neyyattinkara": {
+    "district": "Thiruvananthapuram",
+    "aliases": ["neyyattinkara", "neyattinkara"]
+  }
+}
